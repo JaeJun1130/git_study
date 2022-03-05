@@ -32,6 +32,14 @@ hotfix
 
 main - develop - feature - develop - release - main - hotfix - main ~~
 
+git merge -> git rebase
+
+1. main 또는 master에가서 git pull origin master 최신화 pull
+2. feature로 돌아가서 rebase 시작 git rebase -i master
+3. commit 한 갯수 만큼 pick 생성, 1차 pick은 그대로 두고 그 외 rebase 할 pick은 s (squash) 로 변경
+4. commit msg 병합화면으로 자동으로 이동됨, 그 후 commit를 하나로 병합 해도 되고 수정해도 됨
+5. branch로 push -f 강제 푸시 명령어 필수
+
 # ==linux command==
 
 ls -al 숨김파일까지 리스트형태로 다보기
