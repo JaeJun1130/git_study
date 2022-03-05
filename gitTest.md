@@ -3,3 +3,7 @@ hello jaejun
 
 jaejun commit
 jaejiun add
+
+
+git merge
+
