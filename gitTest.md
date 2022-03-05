@@ -7,3 +7,5 @@ jaejiun add
 
 git merge
 
+
+git master rebase
