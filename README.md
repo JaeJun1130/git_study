@@ -40,6 +40,14 @@ git merge -> git rebase
 4. commit msg 병합화면으로 자동으로 이동됨, 그 후 commit를 하나로 병합 해도 되고 수정해도 됨
 5. branch로 push -f 강제 푸시 명령어 필수
 
+rebase 충돌시
+
+1.git add .
+2 git rebase --continue
+
+해결안될시
+3.git rebase --abort로 아에 rebase를 진행하기 전 상황으로 돌아감
+
 # ==linux command==
 
 ls -al 숨김파일까지 리스트형태로 다보기
